@@ -1,4 +1,3 @@
-alert("Welcome! It's really a pleasure to play with you! Enjoy our game!");
 var hombre = new Array("___\n", "   |\n", "   O\n", "  /", "|", "\\\n", "  /", " \\\n", "___")
 var palabra
 var libreriaPalabras = new Array("t o r t i l l a","q u e t z a l c o a t l","p e d r o i n f a n t e","b a l e r o",
