@@ -28,7 +28,9 @@ tr:nth-child(2) > td> input{
   background-color: #ec3531;
   border: none;
   width: 340px;
-  height: 20px;
+  height: 25px;
+  color: white;
+  padding: 3px;
 }
 tr:nth-child(2) > td> input:focus{
   outline: none;
