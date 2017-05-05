@@ -1,0 +1,21 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+.row:before, .row:after{
+    content: " ";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+[class*="col-"]{
+  min-height: 7px;
+  float:left;
+}
+.col-6{
+  width:50%;css
+}
