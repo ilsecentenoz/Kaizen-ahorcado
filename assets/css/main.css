@@ -1,8 +1,42 @@
-/*estilos globales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
 font-family: 'VT323', monospace;
 }
 
 img {
   vertical-align: middle;
+}
+
+.nav {
+  background-color: #EBD4CB;
+}
+/**/
+.imagenesIndex {
+  width: 60%;
+}
+
+.imagenesIndexMexico {
+  width: 80%;
+}
+
+.imagenesIndexBandera {
+  width: 40%;
+}
+
+.mexicanoWith {
+  width: 20%;
+  padding: 10px;
+}
+
+.btn-play{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
 }
