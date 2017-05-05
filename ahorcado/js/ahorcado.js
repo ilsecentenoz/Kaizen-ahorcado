@@ -1,4 +1,4 @@
-alert("Welcome! It's really a pleasure to play with you! Enjoy our game!");
+// alert("Welcome! It's really a pleasure to play with you! Enjoy our game!");
 var hombre = new Array("___\n", "   |\n", "   O\n", "  /", "|", "\\\n", "  /", " \\\n", "___")
 var palabra
 var libreriaPalabras = new Array("t o r t i l l a","q u e t z a l c o a t l","p e d r o i n f a n t e","b a l e r o",
@@ -81,7 +81,7 @@ function Juega(visor, letra) {
       else if (CompruebaPalabra(visor))
          FinJuego(true)
       } else {
-         alert('Pulsa Juego nuevo para comenzar\nuna partida nueva.')
+         alert('Click on SHOW ME A WORD to start :D')
    }
 }
 
@@ -118,12 +118,12 @@ function FinJuego(resultado) {
    jugando = false
    if (resultado) {
       document.visor.ganadas.value++
-      alert("Acertaste !")
+      alert("You got it!")
    } else {
      document.visor.perdidas.value++
      //construye la palabra solucion
      for (var x = 0; x < palabra.length; x++)
         solucion += palabra[x]
-     alert("Has muerto !\n La palabra era: " + solucion)
+     alert("Sorry you lost this one !\n The word was: " + solucion)
    }
 }
