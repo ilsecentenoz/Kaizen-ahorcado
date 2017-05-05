@@ -19,3 +19,62 @@ padding: 0;
 .col-6{
   width:50%;css
 }
+
+.tituloH{
+  font-family: VT323;
+}
+
+tr:nth-child(2) > td> input{
+  background-color: #ec3531;
+  border: none;
+  width: 340px;
+  height: 20px;
+}
+tr:nth-child(2) > td> input:focus{
+  outline: none;
+}
+tr:nth-child(1n+3){
+  width: 16px;
+}
+tr:nth-child(1n+3) > td > input{
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #1693c3;
+  cursor: pointer;
+  margin: 2px;
+  color: white;
+}
+
+tr:nth-child(1) > td > textarea{
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #e2702a;
+  border: none;
+}
+nav{
+  height: 80px;
+  background-color: #649819;
+  padding: 10px;
+  color: white;
+  font-size: 40px;
+}
+#juegonuevo{
+  width: 170px;
+  color: pink;
+}
+.regresarAMenu {
+  margin: 10px;
+  padding: 5px;
+  height: 60px;
+  width: 550px;
+  background-color: #84652B;
+
+}
+.regresarAMenu>a{
+  color: white;
+  text-align: center;
+  font-family: VT323;
+  font-size: 40px;
+}
