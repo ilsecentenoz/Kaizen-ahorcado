@@ -1,0 +1,83 @@
+body{
+  background-color: white;
+  font-family: 'Monserrat', sans-serif;
+}
+#linea{
+  margin-left: 153px;
+  background-color: black;
+  width: 250px;
+  height: 4px;
+}
+
+#nombre{
+
+  font-family: 'Monserrat', sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+#nombre:hover{
+  color: #978EAE;
+}
+h2{
+  margin-left: 153px;
+}
+
+.divInformacion{
+  position: relative;
+
+}
+p{
+  float:left;
+  margin-left: 150px;
+  font-size: 20px;
+  width: 600px;
+  text-align:justify;
+}
+.imageneShazil{
+  width:300px;
+  height: 300px;
+  display: inline-block;
+  position:absolute;
+}
+
+.foto{
+  margin-left: 50px;
+  margin-right: 250px;
+  width:400px;
+  height: 400px;
+  float:left;
+  padding-right: 100px;
+}
+.opacity {
+  -webkit-filter: opacity(50%);
+  filter: opacity(50%);
+}
+
+.opacity:hover{
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
+}
+
+.icons{
+  float:left;
+  width: 100px;
+  height: 100px;
+  display: inline;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-top: 3px  solid #E7286B;
+  border-bottom: 3px  solid #E7286B;
+
+}
+#organizarIcons{
+  padding-left: 300px;
+  align-items: center;
+  width:100%;
+  position:relative;
+}

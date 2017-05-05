@@ -1,0 +1,85 @@
+#bodyAny{
+  font-family: 'Lobster', cursive;
+}
+#headAny{
+  font-family: 'Lobster', cursive;
+
+}
+#fotoAny{
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
+#sectionFoto{
+  position: relative;
+  display: inline-block;
+  top:50px;
+  left: 150px;
+  height: 300px;
+  width: 300px;
+}
+#descripcion{
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+  display: inline-block;
+  top: -90px;
+  left: 300px;
+  width: 350px;
+  height: 200px;
+}
+#presentacion{
+  font-size: 40px;S
+}
+#hobbies{
+ display: block;
+}
+#titulo{
+  text-align: center;
+}
+#hobbie{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+#primero{
+  position: relative;
+  display: inline-block;
+  left: 150px;
+}
+#segundo{
+  position: relative;
+  display: inline-block;
+  left: 180px;
+}
+#tercero{
+  position: relative;
+  display: inline-block;
+  left: 210px;
+}
+#cuarto{
+  position: relative;
+  display: inline-block;
+  left: 240px;
+}
+#quinto{
+  position: relative;
+  display: inline-block;
+  left: 280px;
+}
+#logo{
+  position: absolute;
+  height: 50px;
+  width: 80px;
+  left: 50px;
+}
+#hobieDescripcion{
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  left: 50px;
+}

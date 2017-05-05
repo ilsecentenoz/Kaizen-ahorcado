@@ -1,0 +1,90 @@
+*{
+  margin: 0 auto;
+}
+#nombreAdriana{
+ font-family: 'Montserrat', sans-serif;
+ background-color: #2E4172;
+ font-size: 40px;
+ color:#FFF;
+ padding-top: 2%;
+ padding-left: 15%;
+ padding-bottom: 2%;
+ margin-bottom: 3px solid #55AA55;
+}
+
+#adrianaPrincipal{
+  background-image: url(../img/adriana/adriana-fondo.jpg);
+  align-self: center;
+  opacity: inherit;
+}
+
+#fotoAdriana{
+  margin-left: 35%;
+  width: 300px;
+}
+#adriana-imagen{
+  position: relative;
+  padding: 7% 7% 7% 7%;
+  margin-left: 150px;
+  display: inline-block;
+}
+#descripcion-adriana{
+  position: relative;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  width: 250px;
+  background-color: #FFF;
+  padding: 2% 2% 2% 2%;
+  margin-top: 1px;
+  margin-left: 2%;
+  text-align: center;
+
+}
+
+.fotoHobbies{
+
+ height: 200px;
+ width: 200px;
+ display: inline-block;
+ background-repeat: no-repeat;
+ background-position: 50%;
+ border-radius: 50%;
+ background-size: 100% auto;
+ margin-left: 180px;
+
+}
+
+.hobbies {
+  display: inline-block;
+  padding-bottom: 100px;
+}
+
+#baseHobbies {
+  background-color: black;
+}
+.nombreHobbie {
+  display:inline-block;
+  padding:20px;
+  list-style: none;
+}
+.linkHobbie{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 145px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 23px;
+
+}
+
+.linkHobbie:hover{
+  color: #978EAE;
+}
+
+#seccionHobbies{
+  padding-top:5%;
+}
+#volver{
+  width:150px;
+  margin-left:600px;
+}

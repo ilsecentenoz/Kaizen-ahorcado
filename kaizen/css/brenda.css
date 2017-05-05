@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+}
+
+#brendaHeader {
+  font-family: 'Delius Unicase', cursive;
+  background: #57737a;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  position: relative;
+}
+
+#logoKaizen{
+  right: 100px;
+  position: absolute;
+}
+
+#fotosBren {
+    float: left;
+    margin: 10px;
+    width: 45%;
+    display: inline-block;
+}
+
+.fotoDeBren{
+  width: 300px;
+  margin-left: 20%;
+  margin-top: 10px;
+  border-radius: 100%;
+}
+#sobreMiBren{
+  top: 20%;
+  margin: 20px;
+  width: 45%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#tituloHobbie {
+  position: absolute;
+  top: 60%;
+  clear: left;
+  left: 45%;
+  padding-top: 60px;
+}
+
+
+p{
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#brenHobbies {
+  position: absolute;
+  top: 80%;
+  left: 13%;
+  width: 100%;
+  clear: both;
+  margin-top: 40px;
+}
+
+#brenHobbies img {
+  display: inline-block;
+  width: 100px;
+  margin-left: 140px;
+  border-radius: 50%;
+}

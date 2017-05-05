@@ -1,0 +1,86 @@
+*{
+margin: 0px;
+}
+
+body {
+  background-color: #7AE7C7;
+}
+
+header {
+  font-family: 'Delius Unicase', cursive;
+  background: #EC0B43;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+ul {
+  background: #58355E;
+  display: block;
+}
+
+li {
+  font-size: 1.5em;
+  font-family: 'Coming Soon', cursive;
+  display: inline-block;
+  padding: 10px;
+  list-style: none;
+  color: white;
+}
+
+li a {
+  font-family: 'Coming Soon', cursive;
+  padding-left: 125px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  text-align: center;
+  color: beige;
+}
+
+a:hover {
+    background-color: #FFF689;
+    color: #58355E;
+}
+
+/*Imagenes*/
+.fotosCoders {
+  position: relative;
+  display: block;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+
+.coders {
+  width: 200px;
+  margin-left: 120px;
+  display: -webkit-inline-box;
+}
+
+.coders img {
+  width: 200px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  border: 10px solid white;
+}
+
+.coders img:hover {
+  opacity: 1;
+  filter: alpha(opacity=50);
+}
+
+
+.nombres {
+  font-family: 'Coming Soon', cursive;
+  font-size: 1em;
+  margin-right: 20px;
+  color: white;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 160px;
+  z-index: 1;
+}

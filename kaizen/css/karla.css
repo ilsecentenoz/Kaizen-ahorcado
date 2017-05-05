@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+}
+
+#karlaHeader {
+  font-family: 'Delius Unicase', cursive;
+  background: #59344F;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+#fotosKarla {
+    float: left;
+    margin: 10px;
+    width: 45%;
+    display: inline-block;
+}
+
+#karlaFoto {
+  width: 300px;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+#karlaTextos {
+  margin: 20px;
+  width: 45%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#tituloHobbie {
+  padding-top: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  clear: both;
+  font-size: 1.5em;
+  color: #087E8B;
+}
+
+p{
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#karlaSubtitulo {
+  margin-top: 50px;
+}
+
+#karlaHobbies {
+  width: 100%;
+  clear: both;
+  margin-top: 10px;
+}
+
+#karlaHobbies img {
+  display: inline-block;
+  width: 100px;
+  margin-left: 140px;
+}
