@@ -43,17 +43,18 @@ img {
 }
 
 .btn-play{
-  width: 100px;
-  height: 50px;
+  padding: 10px 50px;
+  width: 150px;
+  height: 80px;
   background-color: #D52941;
   border: none;
   border-radius: 4px;
-  font-family: 'VT323', monospace;
   color: white;
-    font-size: 2em;
+  font-size: 2em;
+  text-decoration: none; 
+
 }
 
-.btn-play:hover {
-    background-color: #D36135;
-
+.btn-play: hover{
+  background-color: #
 }
