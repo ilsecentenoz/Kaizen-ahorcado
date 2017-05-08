@@ -13,9 +13,14 @@ img {
 }
 
 .nav {
-  background-color: #EBD4CB;
+  background-color: #FCD581;
 }
-/**/
+
+.bg-home {
+    background-color: #FCFAF9;
+    height: 550px;
+}
+
 .imagenesIndex {
   width: 60%;
 }
@@ -29,8 +34,12 @@ img {
 }
 
 .mexicanoWith {
-  width: 20%;
+  width: 50%;
   padding: 10px;
+}
+
+.padding-top {
+    padding: 200px;
 }
 
 .btn-play{
@@ -47,5 +56,5 @@ img {
 }
 
 .btn-play: hover{
-  background-color: #B36135;
+  background-color: #
 }

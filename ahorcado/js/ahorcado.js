@@ -1,5 +1,7 @@
-var hombre = new Array("___\n", "   |\n", "   O\n", "  /", "|", "\\\n", "  /", " \\\n", "___");
-var palabra;
+
+var hombre = new Array("___\n", "   |\n", "   O\n", "  /", "|", "\\\n", "  /", " \\\n", "___")
+var palabra
+
 var libreriaPalabras = new Array("t o r t i l l a","q u e t z a l c o a t l","p e d r o i n f a n t e","b a l e r o",
                                   "d i a d e m u e r t o s","b e l l a s a r t e s","a n g e l d e l a i n d e p e n d e n c i a",
                                   "l u c h a l i b r e","x o l o i t z c u i n t l e","u n a m","f r i d a k a h l o");
@@ -84,7 +86,11 @@ function Juega(visor, letra) {
       else if (CompruebaPalabra(visor))
          FinJuego(true);
       } else {
+
          alert('Pulsa Juego nuevo para comenzar\nuna partida nueva.');
+
+         alert('Click on SHOW ME A WORD to start :D')
+
    }
 }
 
@@ -120,14 +126,17 @@ function FinJuego(resultado) {
    var solucion = "";
    jugando = false;
    if (resultado) {
-      document.visor.ganadas.value++;
-      alert("Acertaste !");
+
+
+      document.visor.ganadas.value++
+      alert("You got it!")
    } else {
      document.visor.perdidas.value++;;
      //construye la palabra solucion
      for (var x = 0; x < palabra.length; x++)
-        solucion += palabra[x];
-     alert("Has muerto !\n La palabra era: " + solucion);
+
+        solucion += palabra[x]
+     alert("Sorry you lost this one !\n The word was: " + solucion)
    }
 }
 
