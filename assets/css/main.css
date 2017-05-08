@@ -15,10 +15,9 @@ img {
 .nav {
   background-color: #FCD581;
 }
-/**/
 
 .bg-home {
-    background-color: #FCFAF9;   
+    background-color: #FCFAF9;
     height: 550px;
 }
 
@@ -56,5 +55,5 @@ img {
 
 .btn-play:hover {
     background-color: #D36135;
-    
+
 }
