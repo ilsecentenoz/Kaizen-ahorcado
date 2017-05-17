@@ -5,13 +5,13 @@ box-sizing: border-box;
 }
 
 body {
-  background-color: #7AE7C7;
+  background-color: #FCFAF9;
   font-family: 'Coming Soon', cursive;
 }
 
 header {
   font-family: 'Delius Unicase', cursive;
-  background: #EC0B43;
+  background-color: #FCD581;
   color: white;
   text-align: center;
   font-size: 3em;
@@ -20,7 +20,7 @@ header {
 }
 
 ul {
-  background: #58355E;
+  background-color: #FCD581;
   display: block;
 }
 
@@ -28,7 +28,7 @@ li {
   display: inline-block;
   padding: 10px;
   list-style: none;
-  color: white;
+  color: #D52941;
 }
 
 li a {
@@ -38,7 +38,7 @@ li a {
   padding-bottom: 10px;
   padding-right: 30px;
   text-align: center;
-  color: beige;
+  color: #D52941;
   font-size: .5em;
 }
 
@@ -77,10 +77,10 @@ a:hover {
 }
 
 .descripcion {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   margin-right: 20px;
-  color: #58355E;
+  color: #D52941;
 }
 
 .container {
