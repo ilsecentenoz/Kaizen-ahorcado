@@ -106,6 +106,7 @@ function IniciaJuego(visor) {
    jugando = true
    partes = 0
    colNueva = 0
+    ocultarImagenes();
    ObtienePalabra()
    DibujaHombre(visor, partes)
    visor.displayPalabra.value = ""
@@ -141,14 +142,14 @@ function FinJuego(resultado) {
    if (resultado) {
       document.visor.ganadas.value++
       alert("You got it!")
-      ocultarImagenes();
+      
    } else {
      document.visor.perdidas.value++
      //construye la palabra solucion
      for (var x = 0; x < palabra.length; x++)
         solucion += palabra[x]
      alert("Sorry you lost this one !\n The word was: " + solucion);
-     ocultarImagenes();
+     
    }
 }
 
