@@ -2,12 +2,19 @@
 var hombre = new Array("___\n", "   |\n", "   O\n", "  /", "|", "\\\n", "  /", " \\\n", "___")
 var libreriaPalabras = new Array("t o r t i l l a","p e d r o - i n f a n t e","b a l e r o",
                                   "d i a - d e - m u e r t o s","b e l l a s - a r t e s","a n g e l - d e - l a - i n d e p e n d e n c i a",
-                                  "l u c h a - l i b r e","x o l o i t z c u i n t l e","u n a m","f r i d a - k a h l o","q u e t z a l c o a t l");
+                                  "l u c h a - l i b r e","x o l o i t z c u i n t l e","u n a m","f r i d a - k a h l o");
 var palabra;
 var partes = 0;
 var colNueva = 0;
 var jugando;
 var contador = 0;
+var indice;
+
+
+var eventoBtn= document.getElementById('juegonuevo');
+eventoBtn.addEventListener("click",muestraImagen);
+var arregloImagenes= document.getElementsByClassName('pistaSecreta');
+
 
 function ObtienePalabra() {
    //obtiene la palabra para jugar de forma pseudoaleatoria
@@ -15,7 +22,7 @@ function ObtienePalabra() {
   //  var cadena = new String( libreriaPalabras[indice] )
   //  palabra = cadena.split(" ")
 
-  if(contador < 11) {
+  if(contador < 10) {
     var cadena = new String(libreriaPalabras[contador]);
     palabra = cadena.split(" ");
     contador++;
@@ -134,11 +141,35 @@ function FinJuego(resultado) {
    if (resultado) {
       document.visor.ganadas.value++
       alert("You got it!")
+      ocultarImagenes();
    } else {
      document.visor.perdidas.value++
      //construye la palabra solucion
      for (var x = 0; x < palabra.length; x++)
         solucion += palabra[x]
-     alert("Sorry you lost this one !\n The word was: " + solucion)
+     alert("Sorry you lost this one !\n The word was: " + solucion);
+     ocultarImagenes();
    }
+}
+
+
+function muestraImagen(){
+
+    var testDivs = Array.prototype.filter.call(arregloImagenes, function(elemento,pos){
+      if(contador==pos){
+      return elemento;
+      }
+    });
+
+    testDivs[0].style.display="block";
+
+
+
+}
+
+function ocultarImagenes(){
+  var testDivs = Array.prototype.forEach.call(arregloImagenes, function(elemento){
+      elemento.style.display="none";
+
+  })
 }
